@@ -21,8 +21,8 @@ class DefaultController extends Controller
     }
 	
     /**
-	 * Testovacia akcia pre pracu s git.
-	 * 
+     * Testovacia akcia pre pracu s git.
+     * 
      * @Route("/hello", name="hello")
      */
     public function helloAction(Request $request)
