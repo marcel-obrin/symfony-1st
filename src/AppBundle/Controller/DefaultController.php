@@ -27,6 +27,6 @@ class DefaultController extends Controller
      */
     public function helloAction(Request $request)
     {
-        return new Response("<h1>hello kitty</h1>");
+        return new Response("<h1>hello marcel</h1>");
     }
 }
