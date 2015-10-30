@@ -5,6 +5,7 @@ namespace AppBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
@@ -24,6 +25,6 @@ class DefaultController extends Controller
      */
     public function helloAction(Request $request)
     {
-        return new \Symfony\Component\HttpFoundation\Response("<h1>hello world</h1>");
+        return new Response("<h1>hello kitty</h1>");
     }
 }
